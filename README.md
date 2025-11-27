@@ -16,6 +16,10 @@ This repository shows how I approach:
 - Simple enough for demonstration, but structured according to real-world engineering expectations.
 - Easy to containerize and integrate into CI/CD pipelines.
 
+## Endpoints
+- `GET /health` -- Service health check
+- `GET /greet/{name}` -- Example parameterized route
+
 ## Run locally
 ```bash
 pip install -r requirements.txt
